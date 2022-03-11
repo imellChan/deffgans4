@@ -1303,7 +1303,7 @@ teks = `hai Saya ${botName} 👋
 ┃➳ Thanks To Herman Channel
 ┃➳ Thanks To DEFFBOTZZ (sc)
 ┃➳ Thanks To Hadi Official
-┃➳ Thanks To Lungas (Bot)
+┃➳ Thanks To imellChan 
 ┃➳ Thanks To All Creator BOTz
 ┗━━━━━━━ •*`
 img = fs.readFileSync('./gambar/deff.jpg')
@@ -1483,14 +1483,14 @@ break
                deff.deleteMessage(from, {id: mek.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: from, fromMe: true})
                } catch (e){
                reply('Reply chat bot')
-}
+} 
                break
 case 'simpelmenu':
 case 'command':
 case 'listmenu':
  listMsg = {
  buttonText: 'KLIK DISINI',
- footerText: 'Bell Botz',
+ footerText: 'ɪ ᴍ ᴇ ʟBotz',
  description: `Hai kak @${sender.split('@')[0]},\n┏┉⌣ ┈̥-̶̯͡..̷̴✽̶\n┆ *INFO BOT*\n└┈┈┈┈┈┈┈┈┈\n\nCreator Bot : De⃟f⃢fri Ga⃢⃟ns❦\nNama Owner : ${ownerName}\nNama Bot : ${botName}\nPrefix : Multi Prefix\nBaterai : Unlimited%\nSpeed : ${latensie.toFixed(4)} second\nLanguage : Javascript`,
  sections: [
                      {
@@ -1502,7 +1502,7 @@ case 'listmenu':
                        "rowId": `${prefix}allmenu`
                            },
                           {
-                        "title": "--->Owner Menu[🤴]",
+                        "title": "--->Owner Menu[👩‍🦰]",
                        "description" :"Menampilkan Menu Owner",
                        "rowId": `${prefix}ownermenu`
                            },
