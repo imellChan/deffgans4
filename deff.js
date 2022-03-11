@@ -1778,7 +1778,7 @@ break
 case 'ping':
 timestampe = speed();
 latensie = speed() - timestampe
-reply(`「 BellBotz 」\n ==[${latensie.toFixed(4)} detik 💬]==`)
+reply(`「 ɪ ᴍ ᴇ ʟ  」\n ==[${latensie.toFixed(4)} detik 💬]==`)
 break
 case 'script':
 case 'sc':
@@ -3021,7 +3021,7 @@ return sendButMessage(from, `Maaf kak @${senderr.split('@')[0]} command ${comman
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     deff.sendMessage(`${target}`, `─────「 *EROR DITEMUKAN* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "B⃞O⃞T W⃢HA⃢TSA⃢PP",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./gambar/thumb.jpg'),sourceUrl:"https://wa.me/601136151330"}}})
+     deff.sendMessage(`${target}`, `─────「 *EROR DITEMUKAN* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: "ɪ ᴍ ᴇ ʟ ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./gambar/thumb.jpg'),sourceUrl:"https://wa.me/18045292269"}}})
 	}
     }
     }
